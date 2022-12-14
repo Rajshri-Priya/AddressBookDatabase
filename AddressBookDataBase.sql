@@ -40,3 +40,8 @@ SELECT * FROM ADDRESS_BOOK_SERVICE;
 ----------Retrieving Data by City or State----------
 Select * from ADDRESS_BOOK_SERVICE WHERE City='Jammu';
 Select * from ADDRESS_BOOK_SERVICE WHERE StateName='Jammu & Kashmir';
+
+------------UC7-Size of Address book by City or State------------
+
+Select COUNT(City) as City_Count FROM ADDRESS_BOOK_SERVICE;
+Select COUNT(StateName) as State_Count FROM ADDRESS_BOOK_SERVICE;
