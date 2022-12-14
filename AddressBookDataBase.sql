@@ -45,3 +45,8 @@ Select * from ADDRESS_BOOK_SERVICE WHERE StateName='Jammu & Kashmir';
 
 Select COUNT(City) as City_Count FROM ADDRESS_BOOK_SERVICE;
 Select COUNT(StateName) as State_Count FROM ADDRESS_BOOK_SERVICE;
+
+-----------UC8-Sorting data Alphabetically by person name------------
+
+SELECT * FROM ADDRESS_BOOK_SERVICE ORDER BY(FirstName);
+SELECT * FROM ADDRESS_BOOK_SERVICE ORDER BY(LastName);
