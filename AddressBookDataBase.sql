@@ -25,3 +25,8 @@ INSERT INTO ADDRESS_BOOK_SERVICE VALUES('rahul','saner','nashik','Maharashtra','
 INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Priyanka','sonawane','hyderabad','Telangana','455454','0938490334','priyanka@gmail.com');
 INSERT INTO ADDRESS_BOOK_SERVICE VALUES('Rajshri','Priya','Jammu','Jammu & Kashmir','182124','7894561235','rajshri@gmail.com');
 SELECT * FROM ADDRESS_BOOK_SERVICE;
+
+----------------UC4--------------
+-----Editing Details Using Name----------
+UPDATE ADDRESS_BOOK_SERVICE SET City= 'Mumbai', Phone='9011596225', Email='sandesh@gmail.com' WHERE FirstName='Sandesh';
+SELECT * FROM ADDRESS_BOOK_SERVICE;
