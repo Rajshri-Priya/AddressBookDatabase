@@ -35,3 +35,8 @@ SELECT * FROM ADDRESS_BOOK_SERVICE;
 -------Deleating a person using name---------
 DELETE FROM ADDRESS_BOOK_SERVICE WHERE FirstName= 'rahul';
 SELECT * FROM ADDRESS_BOOK_SERVICE;
+
+--------------------UC6-------------
+----------Retrieving Data by City or State----------
+Select * from ADDRESS_BOOK_SERVICE WHERE City='Jammu';
+Select * from ADDRESS_BOOK_SERVICE WHERE StateName='Jammu & Kashmir';
